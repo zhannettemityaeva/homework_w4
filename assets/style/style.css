@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Jost;
+    src: url(assets/Fonts/Jost-Medium.woff2);
+    font-weight: 500;
+}
+#subtitle2 { 
+	color: var(--light-colors-black-light, #000);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Jost, sans-serif;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43px; /* 130.303% */
+}
+p.itemshop {
+    color: var(--light-colors-black-light, #000);
+/* 20px - Heading 3 */
+    font-family: DM Sans, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+}
+p.price {
+    color: var(--light-colors-accent-light, #A18A68);
+/* 20px - Heading 4 */
+    font-family: DM Sans, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 130% */
+    text-transform: capitalize;
+}
+li { 
+    color: green;
+}
+a:hover {
+    color: #cc0a0a;
+    font-size: 40px;
+}
+a:active {
+    color:hsl(249, 84%, 50%);
+    font-style: italic;
+}
+header div:first-of-type {
+    border-radius: 16px;
+    background-image: url(../icons/png/main_photo.png);
+    background-size: cover;
+    width: 1249px;
+    height: 647px;
+    background-color: lightgray;
+}
+h1:first-letter {
+    color: #A18A68;
+   }
+h1 {
+    color: #cc0a0a;
+    font-family: Jost, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+}
+.buttom{
+    border-radius: 6px;
+    border:2px solid white; /* Рамка */;
+    text-decoration: none; /* Убираем подчёркивание */
+    padding: 5px 15px;
+    color: white; /* Цвет текста */
+}
+   .c:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
+    background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
+    color: #a00;
+   }*/
